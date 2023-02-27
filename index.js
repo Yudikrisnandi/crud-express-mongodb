@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv').config();
 const connectDB = require('./config/db');
+const cors = require('cors');
 
 
 const todos = require('./routes/todos'); 
@@ -9,6 +10,8 @@ const users = require('./routes/users');
 const PORT = process.env.PORT;
 
 const app = express();
+app.use(cors())
+
 
 connectDB();
 
