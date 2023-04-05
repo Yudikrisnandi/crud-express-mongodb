@@ -1,3 +1,4 @@
+Lihat tutorial di [youtube kodeakademia](https://www.youtube.com/watch?v=eBKV9cXwHqE&t=81s)
 # Cara Deploy API
     1. Clone ke local komputer repository API nya
     2. Buat database di [railway.app](https://railway.app/)
